@@ -28,6 +28,7 @@ Below is the list of what is currently implemented on the library
 * Valve CS:GO Web API 
 * Valve Source Log Handler (a log monitor service)
 * Supercell Clash of Clans Web API
+* Riot Games League of Legends
 
 Requirements
 ------------
@@ -54,7 +55,7 @@ Just add the following dependencies to your maven pom.xml. Only include the modu
 <dependency>
     <groupId>com.ibasco.agql</groupId>
     <artifactId>agql-steam-master</artifactId>
-    <version>0.1.2</version>
+    <version>0.2.0</version>
 </dependency>
 ```
 
@@ -64,7 +65,7 @@ Just add the following dependencies to your maven pom.xml. Only include the modu
 <dependency>
     <groupId>com.ibasco.agql</groupId>
     <artifactId>agql-source-query</artifactId>
-    <version>0.1.2</version>
+    <version>0.2.0</version>
 </dependency>
 ```
 
@@ -74,7 +75,7 @@ Just add the following dependencies to your maven pom.xml. Only include the modu
 <dependency>
     <groupId>com.ibasco.agql</groupId>
     <artifactId>agql-steam-webapi</artifactId>
-    <version>0.1.2</version>
+    <version>0.2.0</version>
 </dependency>
 ```
 
@@ -84,7 +85,7 @@ Just add the following dependencies to your maven pom.xml. Only include the modu
 <dependency>
     <groupId>com.ibasco.agql</groupId>
     <artifactId>agql-dota2-webapi</artifactId>
-    <version>0.1.2</version>
+    <version>0.2.0</version>
 </dependency>
 ```
 
@@ -94,7 +95,7 @@ Just add the following dependencies to your maven pom.xml. Only include the modu
 <dependency>
     <groupId>com.ibasco.agql</groupId>
     <artifactId>agql-csgo-webapi</artifactId>
-    <version>0.1.2</version>
+    <version>0.2.0</version>
 </dependency>
 ```
 
@@ -104,7 +105,7 @@ Just add the following dependencies to your maven pom.xml. Only include the modu
 <dependency>
     <groupId>com.ibasco.agql</groupId>
     <artifactId>agql-coc-webapi</artifactId>
-    <version>0.1.2</version>
+    <version>0.2.0</version>
 </dependency>
 ```
 
@@ -181,14 +182,7 @@ References you might find helpful regarding the implementations
 * [Valve Steam Storefront API](https://wiki.teamfortress.com/wiki/User:RJackson/StorefrontAPI)
 * [Clash of Clans Web API](https://developer.clashofclans.com/#/documentation)
 * [xPaw Steam Web API Documentation](https://lab.xpaw.me/steam_api_documentation.html)
-
-
-Future Integrations
---------------------
-
-My planned integrations for future releases. Don't hesitate to [contact](mailto:raffy@ibasco.com) me if you have any other suggestions.
-
-* Riot Games - League of Legends Web API
+* [Riot Games League of Legends Web API](https://developer.riotgames.com/api)
 
 Contributing
 ------------
