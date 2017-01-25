@@ -109,6 +109,16 @@ Just add the following dependencies to your maven pom.xml. Only include the modu
 </dependency>
 ```
 
+**Riot Games League of Legends Web API**
+
+```xml
+<dependency>
+    <groupId>com.ibasco.agql</groupId>
+    <artifactId>agql-lol-webapi</artifactId>
+    <version>0.2.0</version>
+</dependency>
+```
+
 ### Install from Source
 
 Clone from remote repository then `mvn install`. All of the modules will be installed to your local maven repository.
@@ -138,15 +148,16 @@ Error: Missing Example Key. Please specify the example key. (e.g. source-query)
 ====================================================================
 List of available examples
 ====================================================================
-- Source Server Query Example      (key: source-query)
-- Master Server Query Example      (key: master-query)
-- Source Rcon Example              (key: source-rcon)
-- Clash of Clans Web API Example   (key: coc-webapi)
-- CS:GO Web API Example            (key: csgo-webapi)
-- Steam Web API Example            (key: steam-webapi)
-- Steam Storefront Web API Example (key: steam-store-webapi)
-- Source Log Listener Example      (key: source-logger)
-- Steam Econ Web API Example       (key: steam-econ-webapi)
+- Source Server Query Example       (key: source-query)
+- Master Server Query Example       (key: master-query)
+- Source Rcon Example               (key: source-rcon)
+- Clash of Clans Web API Example    (key: coc-webapi)
+- CS:GO Web API Example             (key: csgo-webapi)
+- Steam Web API Example             (key: steam-webapi)
+- Steam Storefront Web API Example  (key: steam-store-webapi)
+- Source Log Listener Example       (key: source-logger)
+- Steam Econ Web API Example        (key: steam-econ-webapi)
+- League of Legends Web API Example (key: lol-webapi)
 ~~~
 
 If you are running a web service type example, you  will be prompted with an API key. Simply copy and paste the key to the console.
