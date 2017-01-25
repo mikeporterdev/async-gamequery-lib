@@ -9,8 +9,14 @@
         <relativePath>../../../../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <packaging>jar</packaging>
     <artifactId>agql-lol-webapi</artifactId>
     <name>AGQL - Riot Games - League of Legends Web API</name>
     <description>An implementation for the RiotGames League of Legend Web API Interfaces</description>
-    <packaging>jar</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>com.ibasco.agql</groupId>
+            <artifactId>agql-lib-core</artifactId>
+        </dependency>
+    </dependencies>
 </project>
