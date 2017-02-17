@@ -1,11 +1,16 @@
 Asynchronous Game Query Library
 ===============================
 
-[![Build Status](https://travis-ci.org/ribasco/async-gamequery-lib.svg?branch=master)](https://travis-ci.org/ribasco/async-gamequery-lib) [![Dependency Status](https://www.versioneye.com/user/projects/5837c911e7cea00029198c9d/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5837c911e7cea00029198c9d) [![Gitter](https://badges.gitter.im/gitterHQ/gitter.svg)](https://gitter.im/async-gamequery-lib/lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2f5f445a366a4692ab8aa49b0cf4f477)](https://www.codacy.com/app/raffy/async-gamequery-lib?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ribasco/async-gamequery-lib&amp;utm_campaign=Badge_Grade) [![Project Stats](https://www.openhub.net/p/async-gamequery-lib/widgets/project_thin_badge?format=gif&ref=sample)](https://www.openhub.net/p/async-gamequery-lib)
+[mavenImg]: https://img.shields.io/maven-central/v/com.ibasco.agql/async-gamequery-lib.svg
+[mavenLink]: http://mvnrepository.com/artifact/com.ibasco.agql/
+
+[![Maven][mavenImg]][mavenLink] [![Build Status](https://travis-ci.org/ribasco/async-gamequery-lib.svg?branch=master)](https://travis-ci.org/ribasco/async-gamequery-lib) [![Dependency Status](https://www.versioneye.com/user/projects/5837c911e7cea00029198c9d/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5837c911e7cea00029198c9d) [![Javadocs](https://www.javadoc.io/badge/com.ibasco.agql/async-gamequery-lib.svg)](https://www.javadoc.io/doc/com.ibasco.agql/async-gamequery-lib) [![Gitter](https://badges.gitter.im/gitterHQ/gitter.svg)](https://gitter.im/async-gamequery-lib/lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2f5f445a366a4692ab8aa49b0cf4f477)](https://www.codacy.com/app/raffy/async-gamequery-lib?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ribasco/async-gamequery-lib&amp;utm_campaign=Badge_Grade) [![Project Stats](https://www.openhub.net/p/async-gamequery-lib/widgets/project_thin_badge?format=gif&ref=sample)](https://www.openhub.net/p/async-gamequery-lib)
  
 It's a game query library which provides a convenient way for java programs to execute asynchronous requests to game servers/services. It's built on top of [Netty](https://github.com/netty/netty) as it's core transport engine and use [AsyncHttpClient](https://github.com/AsyncHttpClient/async-http-client) for web services.
 
-![alt text](site/resources/images/agql-project-banner-big.png "Games supported by Source Query Protocol")
+![Supported Games](site/resources/images/agql-project-banner-big.png "Games supported by Source Query Protocol")
+
+![Master Browser Example](site/resources/images/master-browser-example.gif)
 
 Project Resources
 -------------
@@ -37,7 +42,7 @@ Requirements
 * Apache Commons Lang 3
 * Apache Commons Math 3
 * Netty 4.1.x
-* AsyncHttpClient 2.0.x
+* AsyncHttpClient 2.1.x
 * SLF4J 1.7.x
 * Google Gson 2.8.x
 * Google Guava 21.x
@@ -201,9 +206,13 @@ Contributing
 Fork it and submit a pull request. Any type of contributions are welcome.
 
 
-Sponsors
----------
+Special Thanks/Sponsors
+------------------------
 
 * ej Technologies - Developer of the award-winning JProfiler, a full-featured "All-in-one" Java Profiler. Click on the icon below to find out more. 
 
   [![JProfiler](https://www.ej-technologies.com/images/product_banners/jprofiler_medium.png)](http://www.ej-technologies.com/products/jprofiler/overview.html)
+  
+* JetBrains - For providing the open-source license for their awesome Java IDE. 
+ 
+  [![IntelliJ IDEA](site/resources/images/intellij-icon.png)](https://www.jetbrains.com/idea)
